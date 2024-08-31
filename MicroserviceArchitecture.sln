@@ -3,20 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango", "Mango\Mango.csproj", "{68AD09ED-EC71-44D8-AB54-FA148BFAD459}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{FCD5FA7A-9ADC-4CA9-8F38-5ADDF9472935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{1259C11E-03FD-4ACD-A117-006FB2E8A2BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{F575214C-5913-4303-B822-75A6A298E46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{660B98BA-024B-48B5-ABE4-BDF30FD51DD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68AD09ED-EC71-44D8-AB54-FA148BFAD459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68AD09ED-EC71-44D8-AB54-FA148BFAD459}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68AD09ED-EC71-44D8-AB54-FA148BFAD459}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68AD09ED-EC71-44D8-AB54-FA148BFAD459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
